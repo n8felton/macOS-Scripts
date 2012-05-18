@@ -1,12 +1,10 @@
 #!/bin/bash
 
-INSTADMG_ROOT="/instadmg"
-
-exec > >(tee ${INSTADMG_ROOT}/AddOns/InstaUp2Date/CatalogFiles/printers.catalog ) 2>&1
+exec > >(tee $(PWD)/printers.catalog ) 2>&1
 
 BASE_URL="http://support.apple.com/downloads"
 LOCALE="en_US"
-CHECKSUM="${INSTADMG_ROOT}/AddOns/InstaUp2Date/checksum.py"
+CHECKSUM="/instadmg/AddOns/InstaUp2Date/checksum.py"
 
 echo "Apple Updates:"
 
