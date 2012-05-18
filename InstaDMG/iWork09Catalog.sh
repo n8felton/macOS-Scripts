@@ -13,10 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # 
-# Description:	Uses InstaDMG's "checksum.py" utility to generate a printers.catalog file
+# Description:	Uses InstaDMG's "checksum.py" utility to generate a iWork09_Updates.catalog file
 # 				for use with the InstaUp2Date AddOn.
 
-exec > >(tee $(PWD)/CatalogFiles/printers.catalog ) 2>&1
+exec > >(tee $(PWD)/CatalogFiles/iWork09_Updates.catalog ) 2>&1
 
 BASE_URL="http://support.apple.com/downloads"
 LOCALE="en_US"
@@ -24,7 +24,7 @@ CHECKSUM="/instadmg/AddOns/InstaUp2Date/checksum.py"
 
 echo "Apple Updates:"
 
-for i in 'DL894' 'DL899' 'DL1398' 'DL904' 'DL909' 'DL911' 'DL907' 'DL1496' 'DL903' 'DL910' 'DL1397' 'DL908' 'DL1495' 'DL902' 'DL905' 'DL906' 'DL912'
+for i in DL1097
 do
 	FILE=$(curl --head --location --silent ${BASE_URL}/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r')
 	${CHECKSUM} ${BASE_URL}/${i}/${LOCALE}/$(basename $FILE)
