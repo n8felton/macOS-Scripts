@@ -1,18 +1,18 @@
 Apple Updates:
-	BrotherPrinterDrivers2.8.1	http://support.apple.com/downloads/DL894/en_US/BrotherPrinterDrivers2.8.1.dmg	sha1:b05acdafcdd45ea4af3222afe345e5b6afa2dcfa
-	CanonPrinterDrivers2.8	http://support.apple.com/downloads/DL899/en_US/CanonPrinterDrivers2.8.dmg	sha1:1b38e6f495e620a385fb741884ff5389637d43ac
-	EpsonDrivers2.10	http://support.apple.com/downloads/DL1398/en_US/EpsonDrivers2.10.dmg	sha1:30444f3faa20d90b80daf4606a9536544ea9b870
+	BrotherPrinterDrivers2.9	http://support.apple.com/downloads/DL894/en_US/BrotherPrinterDrivers2.9.dmg	sha1:ced12cc349a6990094796395f8da579ba07ec5b7
+	CanonPrinterDrivers2.9	http://support.apple.com/downloads/DL899/en_US/CanonPrinterDrivers2.9.dmg	sha1:d6dc46eeaf3d976966fa6c413b817314df867b38
+	EPSONPrinterDrivers2.11	http://support.apple.com/downloads/DL1398/en_US/EPSONPrinterDrivers2.11.dmg	sha1:40861b8d791ecb692612e9e2aff698a3cfbae982
 	FujiXeroxPrinterDrivers2.2	http://support.apple.com/downloads/DL904/en_US/FujiXeroxPrinterDrivers2.2.dmg	sha1:7248823a2361628a3641e12f2be0342689d1abc6
-	GestetnerPrinterDrivers2.2	http://support.apple.com/downloads/DL909/en_US/GestetnerPrinterDrivers2.2.dmg	sha1:9c7a7e748cdfcab33e5846e6d00b5ade2c8a5a07
+	GestetnerPrinterDrivers2.3	http://support.apple.com/downloads/DL909/en_US/GestetnerPrinterDrivers2.3.dmg	sha1:32796110d2f8f4445dad1d354edd24a995c406f9
 	GutenprintPrinterDrivers2.0	http://support.apple.com/downloads/DL911/en_US/GutenprintPrinterDrivers2.0.dmg	sha1:c5241581045b7dbc51e13374ad0e35c7e4d2dacb
 	HewlettPackardPrinterDrivers	http://support.apple.com/downloads/DL907/en_US/HewlettPackardPrinterDrivers.dmg	sha1:6903daaad6d8760b654c1261546f32610a5d9a42
-	InfoPrintPrinterDrivers2.2	http://support.apple.com/downloads/DL1496/en_US/InfoPrintPrinterDrivers2.2.dmg	sha1:9cd48ec4e11bf6ddfd423fecf06e940e541faafd
-	InfotecPrinterDrivers2.2	http://support.apple.com/downloads/DL903/en_US/InfotecPrinterDrivers2.2.dmg	sha1:dea74d915cd78d91054fb9eb28145a07d7f02ad2
-	LanierPrinterDrivers2.2	http://support.apple.com/downloads/DL910/en_US/LanierPrinterDrivers2.2.dmg	sha1:fa6f615d29623ee3ef75186a0d6593ed7ccf9a16
-	LexmarkPrinterDrivers2.7	http://support.apple.com/downloads/DL1397/en_US/LexmarkPrinterDrivers2.7.dmg	sha1:4d47679bede70dcfbe2dc11c1914062fb76ad241
+	InfoPrintPrinterDrivers2.3	http://support.apple.com/downloads/DL1496/en_US/InfoPrintPrinterDrivers2.3.dmg	sha1:c55cb4c0485e259655918265aebad2d5cf8ee592
+	InfotecPrinterDrivers2.3	http://support.apple.com/downloads/DL903/en_US/InfotecPrinterDrivers2.3.dmg	sha1:ba88a7a8bc83cd3f37ffa1d384a6f675ef1268bc
+	LanierPrinterDrivers2.3	http://support.apple.com/downloads/DL910/en_US/LanierPrinterDrivers2.3.dmg	sha1:9a1333636bcc728aa2f8ab0fc92b5ba139063e0d
+	LexmarkPrinterDrivers2.8	http://support.apple.com/downloads/DL1397/en_US/LexmarkPrinterDrivers2.8.dmg	sha1:227dd93bd06c54392f3dd36b3c024cf43da424e7
 	NRG7PrinterDrivers	http://support.apple.com/downloads/DL908/en_US/NRG7PrinterDrivers.dmg	sha1:0071050a4e14b81fa904fe6795578bb6a937b9f6
-	NRGPrinterDrivers2.2	http://support.apple.com/downloads/DL1495/en_US/NRGPrinterDrivers2.2.dmg	sha1:5092d374fd1c09f3c899110238a3f021865d86d2
-	RicohPrinterDrivers2.2	http://support.apple.com/downloads/DL902/en_US/RicohPrinterDrivers2.2.dmg	sha1:5d90f7bc775cc2dec8dbe3c0f1ca022b035c10a7
+	NRGPrinterDrivers2.3	http://support.apple.com/downloads/DL1495/en_US/NRGPrinterDrivers2.3.dmg	sha1:9e7cb07e82c440f11d10be97ae4bdff2c657f2a6
+	RicohPrinterDrivers2.3	http://support.apple.com/downloads/DL902/en_US/RicohPrinterDrivers2.3.dmg	sha1:ef3dd41103740b3202b0642ef85cdd61007d5934
 	SamsungPrinterDrivers	http://support.apple.com/downloads/DL905/en_US/SamsungPrinterDrivers.dmg	sha1:3a143f49494213885a6b47388a19022b236ffacf
-	SavinPrinterDrivers2.2	http://support.apple.com/downloads/DL906/en_US/SavinPrinterDrivers2.2.dmg	sha1:6bc5407d26276c12b38c31c8b84f6eb8ba07223e
+	SavinPrinterDrivers2.3	http://support.apple.com/downloads/DL906/en_US/SavinPrinterDrivers2.3.dmg	sha1:ddebc0768d73ab4ddb8f99f25c713770c0e11d21
 	XeroxPrinterDrivers2.1	http://support.apple.com/downloads/DL912/en_US/XeroxPrinterDrivers2.1.dmg	sha1:32c9dea8bf2cef23b464a935e92744423beca590
