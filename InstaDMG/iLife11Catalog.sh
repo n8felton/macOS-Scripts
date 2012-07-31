@@ -31,10 +31,10 @@ for i in DL1413 DL1414 DL1514 DL1562 DL1412 DL1566 DL1507 DL1552
 do
 	case ${i} in
 		DL1514)
-			echo "# 10.6 Compatability #"
+			echo -e "\t# 10.6 Compatability #"
 			;;
 		DL1412)
-			echo "# 10.6 Compatability #"
+			echo -e "\t# 10.6 Compatability #"
 			;;
 	esac
 	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p')
