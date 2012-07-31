@@ -16,16 +16,28 @@
 # Description:	Uses InstaDMG's "checksum.py" utility to generate a iLife11_Updates.catalog file
 # 				for use with the InstaUp2Date AddOn.
 
-exec > >(tee $(PWD)/CatalogFiles/iLife11_Updates.catalog ) 2>&1
-
-BASE_URL="http://support.apple.com/downloads"
+BASE_URL="http://support.apple.com"
 LOCALE="en_US"
 CHECKSUM="/instadmg/AddOns/InstaUp2Date/checksum.py"
+DATE=$(date "+%Y-%m-%d")
+OUTPUT="$(PWD)/CatalogFiles/iLife11_Updates.catalog"
 
+exec > >(tee "${OUTPUT}" ) 2>&1
+
+echo "#Generated: $DATE"
 echo "Apple Updates:"
 
-for i in DL1413 DL1414 DL1507 DL1513 DL1412 DL1322
+for i in DL1413 DL1414 DL1514 DL1562 DL1412 DL1566 DL1507 DL1552
 do
-	FILE=$(curl --head --location --silent ${BASE_URL}/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r')
-	${CHECKSUM} ${BASE_URL}/${i}/${LOCALE}/$(basename $FILE)
+	case ${i} in
+		DL1514)
+			echo "# 10.6 Compatability #"
+			;;
+		DL1412)
+			echo "# 10.6 Compatability #"
+			;;
+	esac
+	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p')
+	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)
+	${CHECKSUM} "${BASE_URL}/downloads/${i}/${LOCALE}/${FILE}.dmg" | sed -E s/"$FILE"/"$TITLE"/
 done

@@ -16,16 +16,20 @@
 # Description:	Uses InstaDMG's "checksum.py" utility to generate a printers.catalog file
 # 				for use with the InstaUp2Date AddOn.
 
-exec > >(tee $(PWD)/CatalogFiles/printers.catalog ) 2>&1
-
-BASE_URL="http://support.apple.com/downloads"
+BASE_URL="http://support.apple.com"
 LOCALE="en_US"
 CHECKSUM="/instadmg/AddOns/InstaUp2Date/checksum.py"
+DATE=$(date "+%Y-%m-%d")
+OUTPUT="$(PWD)/CatalogFiles/printers.catalog"
 
+exec > >(tee "${OUTPUT}" ) 2>&1
+
+echo "#Generated: $DATE"
 echo "Apple Updates:"
 
-for i in 'DL894' 'DL899' 'DL1398' 'DL904' 'DL909' 'DL911' 'DL907' 'DL1496' 'DL903' 'DL910' 'DL1397' 'DL908' 'DL1495' 'DL902' 'DL905' 'DL906' 'DL912'
+for i in DL894 DL899 DL1398 DL904 DL909 DL911 DL907 DL1496 DL903 DL910 DL1397 DL908 DL1495 DL902 DL905 DL906 DL912
 do
-	FILE=$(curl --head --location --silent ${BASE_URL}/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r')
-	${CHECKSUM} ${BASE_URL}/${i}/${LOCALE}/$(basename $FILE)
+	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p')
+	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)
+	${CHECKSUM} "${BASE_URL}/downloads/${i}/${LOCALE}/${FILE}.dmg" | sed -E s/"$FILE"/"$TITLE"/
 done
