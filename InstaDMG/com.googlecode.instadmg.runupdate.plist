@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
         <key>Label</key>
-        <string>edu.rit.updateinstadmg</string>
+        <string>com.googlecode.instadmg.runupdate</string>
         <key>ProgramArguments</key>
         <array>
                 <string>bash</string>
