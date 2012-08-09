@@ -1,19 +1,18 @@
-# Creates a 10.6 image with all the items that would appear in software update
-# $Rev: 453 $ from $Date: 2012-06-27 02:02:49 -0400 (Wed, 27 Jun 2012) $
+#Generated: 2012-08-07
+# $Rev$ from $Date$
 
 Installer Disc Builds:	10A432, 10B504, 10C540, 10D573, 10D575, 10F569
 
-Output Volume Name:		Macintosh HD
-Output File Name:		10.6.8 Vanilla
+Output Volume Name:	Macintosh HD
+Output File Name:	10.6_vanilla
 
 OS Updates:
-	AirPort Utility 5.5.3	http://support.apple.com/downloads/DL1390/en_US/AirPortUtility553.dmg	sha1:9a2ebd9333d780fe280120f58e4af5bea51a3958
-	Remote Desktop Client 3.5.3	http://support.apple.com/downloads/DL1532/en_US/RemoteDesktopClient.dmg	sha1:3ece5926985cbc336aca10eba995cc1353724f6a
 	iLife Support 9.0.4	http://support.apple.com/downloads/DL1009/en_US/iLifeSupport904.dmg	sha1:7cda1492d1bab91383b5738a7cda2cde24f72d2c
-	Mac OS X 10.6.8 Combo Update v1.1	http://support.apple.com/downloads/DL1400/en_US/MacOSXUpd10.6.8.dmg	sha1:25a43b51cba69b9094f6bb0d3f860fc0480f1447
-	AirPort Utility 5.6.1	http://support.apple.com/downloads/DL1536/en_US/AirPortUtility5.6.1.dmg	sha1:66943c0eb6de4567954c730f59a40bd5537055b3
-	Java For Mac OS X 10.6 Update 9	http://support.apple.com/downloads/DL1550/en_US/JavaForMacOSX10.6.dmg	sha1:c2fcc844b7073d8243588f3407eb3ce1d497043d
-	Apple Software Installer Update	http://support.apple.com/downloads/DL1512/en_US/AppleSoftwareInstallerUpdate.dmg	sha1:f03170aedca0fbb7e58026de0436bc614a4dab8f
-	Security Update 2012-002	http://support.apple.com/downloads/DL1526/en_US/SecUpd2012-002Snow.dmg	sha1:9669fbd9952419e70ac20109cf4db37f9932e9f8
+	Java for Mac OS X 10.6 Update 9	http://support.apple.com/downloads/DL1550/en_US/JavaForMacOSX10.6.dmg	sha1:c2fcc844b7073d8243588f3407eb3ce1d497043d
+	Mac OS X 10.6.8 Update Combo v1.1	http://support.apple.com/downloads/DL1399/en_US/MacOSXUpdCombo10.6.8.dmg	sha1:e0742e7537f80c9e01376ea3b3c09df993900643
+	Apple Remote Desktop 3.5.3 Client	http://support.apple.com/downloads/DL1532/en_US/RemoteDesktopClient.dmg	sha1:3ece5926985cbc336aca10eba995cc1353724f6a
+	Apple Software Installer Update 1.0	http://support.apple.com/downloads/DL1512/en_US/AppleSoftwareInstallerUpdate.dmg	sha1:f03170aedca0fbb7e58026de0436bc614a4dab8f
+	Security Update 2012-002 (Snow Leopard)	http://support.apple.com/downloads/DL1526/en_US/SecUpd2012-002Snow.dmg	sha1:9669fbd9952419e70ac20109cf4db37f9932e9f8
+	AirPort Utility 5.6.1 for Leopard-Snow Leopard	http://support.apple.com/downloads/DL1536/en_US/AirPortUtility5.6.1.dmg	sha1:66943c0eb6de4567954c730f59a40bd5537055b3
 	iTunes 10.6.3	http://appldnld.apple.com/itunes10/041-6244.20120611.bbhi8/iTunes10.6.3.dmg	sha1:e673e5cbd2955130efbc92a788fff178e66bd155
 	Safari 5.1.7	http://appldnld.apple.com/Safari5/041-5476.20120509.oXWEO/Safari5.1.7SnowLeopard.dmg	sha1:32d1dca993b455bc5c230caef95ab70c702e6fee
