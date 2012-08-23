@@ -1,0 +1,5 @@
+Output File Name:	10.7_iLife
+
+include-file:	10.7_vanilla.catalog
+include-file:	iLife11_Install.catalog
+include-file:	iLife11_10.7_Updates.catalog

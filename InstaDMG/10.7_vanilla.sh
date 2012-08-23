@@ -29,7 +29,7 @@ echo "#Generated: $DATE"
 cat <<'EOF'
 # $Rev$ from $Date$
 
-Installer Disc Builds:	11A511, 11B26, 11C74, 11D50, 11E53
+Installer Disc Builds:	11A511, 11B26, 11C74, 11D50, 11E53, 11E2702
 
 Output Volume Name:	Macintosh HD
 Output File Name:	10.7_vanilla

@@ -29,7 +29,7 @@ echo "#Generated: $DATE"
 cat <<'EOF'
 # $Rev$ from $Date$
 
-Installer Disc Builds:	12A269
+Installer Disc Builds:	12A269, 12B19
 
 Output Volume Name:	Macintosh HD
 Output File Name:	10.8_vanilla
@@ -37,7 +37,7 @@ Output File Name:	10.8_vanilla
 OS Updates:
 EOF
 
-for i in DL1515
+for i in DL1515 DL1571
 do
 	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p' | tr / -)
 	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)

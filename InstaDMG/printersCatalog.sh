@@ -25,11 +25,18 @@ OUTPUT="$(PWD)/CatalogFiles/printers.catalog"
 exec > >(tee "${OUTPUT}" ) 2>&1
 
 echo "#Generated: $DATE"
-echo "Apple Updates:"
+
+cat <<'EOF'
+# $Rev$ from $Date$
+
+Apple Updates:
+EOF
 
 for i in DL894 DL899 DL1398 DL904 DL909 DL911 DL907 DL1496 DL903 DL910 DL1397 DL908 DL1495 DL902 DL905 DL906 DL912
 do
-	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p')
+	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p' | tr / -)
 	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)
-	${CHECKSUM} "${BASE_URL}/downloads/${i}/${LOCALE}/${FILE}.dmg" | sed -E s/"$FILE"/"$TITLE"/
+	${CHECKSUM} "${BASE_URL}/downloads/${i}/${LOCALE}/${FILE}.dmg" | sed -E s:"$FILE":"$TITLE":
 done
+
+

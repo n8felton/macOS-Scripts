@@ -1,7 +1,7 @@
-#Generated: 2012-08-07
+#Generated: 2012-08-21
 # $Rev$ from $Date$
 
-Installer Disc Builds:	11A511, 11B26, 11C74, 11D50, 11E53
+Installer Disc Builds:	11A511, 11B26, 11C74, 11D50, 11E53, 11E2702
 
 Output Volume Name:	Macintosh HD
 Output File Name:	10.7_vanilla
@@ -13,3 +13,4 @@ OS Updates:
 	OS X Lion Update 10.7.4 (Client Combo)	http://support.apple.com/downloads/DL1524/en_US/MacOSXUpdCombo10.7.4.dmg	sha1:b11d511a50d9b728532688768fcdee9c1930037f
 	Safari 6	http://swcdn.apple.com/content/downloads/41/52/041-6856/x5uvu03lvir18bqkzslxhh0prnly9oqoys/Safari6Lion.pkg	sha1:ba25da3f513f0535ee33bda23a1ce021cbad65d5
 	iTunes 10.6.3	http://appldnld.apple.com/itunes10/041-6244.20120611.bbhi8/iTunes10.6.3.dmg	sha1:e673e5cbd2955130efbc92a788fff178e66bd155
+	10.7.4 Supplemental Update	http://swcdn.apple.com/content/downloads/17/57/041-6014/hfBmdFTdwW9tmjbsYdfK9YbrJLPdVhdCNq/MacOSXUpd10.7.4Supp.pkg	sha1:ca5138ba9171c74e71408d4a93d8e9ffdaa84f5f

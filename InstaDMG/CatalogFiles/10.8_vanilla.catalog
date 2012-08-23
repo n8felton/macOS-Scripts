@@ -1,10 +1,11 @@
-#Generated: 2012-08-09
+#Generated: 2012-08-23
 # $Rev$ from $Date$
 
-Installer Disc Builds:	12A269
+Installer Disc Builds:	12A269, 12B19
 
 Output Volume Name:	Macintosh HD
 Output File Name:	10.8_vanilla
 
 OS Updates:
 	Java for OS X 2012-004	http://support.apple.com/downloads/DL1515/en_US/JavaForOSX.dmg	sha1:f176546327bc62d8cd397d54d1dc22b72aee1d2b
+	OS X Mountain Lion Update v10.8.1	http://support.apple.com/downloads/DL1571/en_US/OSXUpd10.8.1.dmg	sha1:883ab7dcd5dbe6add522e382349b08869ef19dbf
