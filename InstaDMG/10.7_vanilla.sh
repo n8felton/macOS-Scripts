@@ -37,7 +37,7 @@ Output File Name:	10.7_vanilla
 OS Updates:
 EOF
 
-for i in DL1515 DL1537 DL1564 DL1524
+for i in DL1572 DL1537 DL1564 DL1524
 do
 	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p' | tr / -)
 	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)
