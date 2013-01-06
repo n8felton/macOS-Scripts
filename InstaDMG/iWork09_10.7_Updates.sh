@@ -24,7 +24,8 @@ OUTPUT="$(PWD)/CatalogFiles/iWork09_10.7_Updates.catalog"
 
 exec > >(tee "${OUTPUT}" ) 2>&1
 
-echo "#Generated: $DATE"
+echo "# Generated: $DATE"
+echo "# \$Rev\$ from \$Date\$"
 echo "Apple Updates:"
 
 for i in DL1563

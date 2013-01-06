@@ -24,7 +24,7 @@ OUTPUT="$(PWD)/CatalogFiles/10.8_vanilla.catalog"
 
 exec > >(tee "${OUTPUT}" ) 2>&1
 
-echo "#Generated: $DATE"
+echo "# Generated: $DATE"
 
 cat <<'EOF'
 # $Rev$ from $Date$
