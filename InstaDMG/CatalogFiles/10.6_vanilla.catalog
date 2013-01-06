@@ -1,4 +1,4 @@
-#Generated: 2012-09-10
+#Generated: 2012-09-13
 # $Rev$ from $Date$
 
 Installer Disc Builds:	10A432, 10B504, 10C540, 10D573, 10D575, 10F569
@@ -7,7 +7,7 @@ Output Volume Name:	Macintosh HD
 Output File Name:	10.6_vanilla
 
 OS Updates:
-	iTunes 10.6.3	http://appldnld.apple.com/itunes10/041-6244.20120611.bbhi8/iTunes10.6.3.dmg	sha1:e673e5cbd2955130efbc92a788fff178e66bd155
+	iTunes 10.7	http://appldnld.apple.com/iTunes10/041-7195.20120912.d3uzQ/iTunes10.7.dmg	sha1:0ff7c404f87122f89d49ed6c411b3692f1016e0a
 	Safari 5.1.7	http://appldnld.apple.com/Safari5/041-5476.20120509.oXWEO/Safari5.1.7SnowLeopard.dmg	sha1:32d1dca993b455bc5c230caef95ab70c702e6fee
 	iLife Support 9.0.4	http://support.apple.com/downloads/DL1009/en_US/iLifeSupport904.dmg	sha1:7cda1492d1bab91383b5738a7cda2cde24f72d2c
 	Java for Mac OS X 10.6 Update 10	http://support.apple.com/downloads/DL1573/en_US/JavaForMacOSX10.6.dmg	sha1:6218979ae4eaef5ea7849cb4455e2c6f8bf362d2

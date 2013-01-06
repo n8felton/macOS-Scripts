@@ -1,11 +1,13 @@
-#Generated: 2012-09-10
+#Generated: 2013-01-06
 # $Rev$ from $Date$
 
-Installer Disc Builds:	12A269, 12B19
+Installer Disc Builds:	12A269, 12B19, 12C54
 
 Output Volume Name:	Macintosh HD
 Output File Name:	10.8_vanilla
 
 OS Updates:
-	Java for OS X 2012-005	http://support.apple.com/downloads/DL1572/en_US/JavaForOSX.dmg	sha1:e0750c72972b8a2ccbcb3144bb31d74419276387
-	OS X Mountain Lion Update v10.8.1	http://support.apple.com/downloads/DL1571/en_US/OSXUpd10.8.1.dmg	sha1:883ab7dcd5dbe6add522e382349b08869ef19dbf
+	iTunes 11.0.1	http://appldnld.apple.com/iTunes11/041-8973.20121213.T1fc2/iTunes11.0.1.dmg	sha1:83e703e3ab604fdc1f8eba492e153f4d81c5e94f
+	Safari 6.0.2	http://swcdn.apple.com/content/downloads/53/02/041-8081/jex01nudh37t8cusghkiy1eki5crm76f4b/Safari6.0.2Mountain.pkg	sha1:9bb8555ad450db677b764e88b667a9c202313efc
+	Java for OS X 2012-006	http://support.apple.com/downloads/DL1572/en_US/JavaForOSX.dmg	sha1:eff777cdc39b4e3336b3477f60e8ad769ded8532
+	OS X Mountain Lion Update v10.8.2 (Combo)	http://support.apple.com/downloads/DL1581/en_US/OSXUpdCombo10.8.2.dmg	sha1:1b0884333c01d9f7183aa0038d448f556ef38503

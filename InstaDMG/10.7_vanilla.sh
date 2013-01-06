@@ -46,6 +46,6 @@ done
 
 cat <<'EOF'
 	Safari 6	http://swcdn.apple.com/content/downloads/41/52/041-6856/x5uvu03lvir18bqkzslxhh0prnly9oqoys/Safari6Lion.pkg	sha1:ba25da3f513f0535ee33bda23a1ce021cbad65d5
-	iTunes 10.6.3	http://appldnld.apple.com/itunes10/041-6244.20120611.bbhi8/iTunes10.6.3.dmg	sha1:e673e5cbd2955130efbc92a788fff178e66bd155
+	iTunes 10.7	http://appldnld.apple.com/iTunes10/041-7195.20120912.d3uzQ/iTunes10.7.dmg	sha1:0ff7c404f87122f89d49ed6c411b3692f1016e0a
 	10.7.4 Supplemental Update	http://swcdn.apple.com/content/downloads/17/57/041-6014/hfBmdFTdwW9tmjbsYdfK9YbrJLPdVhdCNq/MacOSXUpd10.7.4Supp.pkg	sha1:ca5138ba9171c74e71408d4a93d8e9ffdaa84f5f
 EOF
