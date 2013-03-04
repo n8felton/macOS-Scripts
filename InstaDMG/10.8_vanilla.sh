@@ -37,10 +37,10 @@ Output File Name:	10.8_vanilla
 OS Updates:
 EOF
 cat <<'EOF'
-	iTunes 11.0.1	http://appldnld.apple.com/iTunes11/041-8973.20121213.T1fc2/iTunes11.0.1.dmg	sha1:83e703e3ab604fdc1f8eba492e153f4d81c5e94f
 	Safari 6.0.2	http://swcdn.apple.com/content/downloads/53/02/041-8081/jex01nudh37t8cusghkiy1eki5crm76f4b/Safari6.0.2Mountain.pkg	sha1:9bb8555ad450db677b764e88b667a9c202313efc
+	iTunes 11.0.2	http://appldnld.apple.com/iTunes11/041-9794.20130220.DdPy6/iTunes11.0.2.dmg	sha1:e8eba6c2b83b9e24116a9944c808525bed260aa0
 EOF
-for i in DL1572 DL1581
+for i in DL1572 DL1581 DL1628
 do
 	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p' | tr / -)
 	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)
