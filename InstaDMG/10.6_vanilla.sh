@@ -39,10 +39,9 @@ EOF
 
 cat <<'EOF'
 	iTunes 11.0.2	http://appldnld.apple.com/iTunes11/041-9794.20130220.DdPy6/iTunes11.0.2.dmg	sha1:e8eba6c2b83b9e24116a9944c808525bed260aa0
-	Safari 5.1.7	http://appldnld.apple.com/Safari5/041-5476.20120509.oXWEO/Safari5.1.7SnowLeopard.dmg	sha1:32d1dca993b455bc5c230caef95ab70c702e6fee
 EOF
 
-for i in DL1009 DL1573 DL1399 DL1532 DL1512 DL1526 DL1536
+for i in  DL1573 DL1399 DL1532 DL1512 DL1642 DL1536
 do
 	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p' | tr / -)
 	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)
