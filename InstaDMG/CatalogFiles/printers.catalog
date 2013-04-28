@@ -1,21 +1,20 @@
-#Generated: 2013-04-26
+# Generated: 2013-04-28
 # $Rev$ from $Date$
-
 Apple Updates:
-	Brother Printer Drivers 2.10 for OS X	http://support.apple.com/downloads/DL894/en_US/BrotherPrinterDriver2.10.dmg	sha1:e788facea4196f3e1e9e7b843227be273de3ee6e
-	Canon Inkjet Printer Drivers v2.11 for OS X	http://support.apple.com/downloads/DL899/en_US/CanonPrinterDrivers.dmg	sha1:4df552c8f950c79d3395abc86bcdbae26dfd372a
-	Canon Laser Printer Drivers v2.0 for OS X	http://support.apple.com/downloads/DL1648/en_US/CanonLaserPrintDrivers2.0.dmg	sha1:8260793cba20f6f3918d8f195fb27d459ddd4c46
-	Epson Printer Drivers v2.14 for OS X	http://support.apple.com/downloads/DL1398/en_US/EPSONPrinterDrivers2.14.dmg	sha1:1b2b007c5747cb7d5ad6a7880575cf45f8fc2d8a
-	FujiXerox Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL904/en_US/FujiXeroxPrinterDrivers.dmg	sha1:e6275c6b766dc657255d8356766c8f5f3949a634
-	Gestetner Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL909/en_US/GestetnerPrinterDrivers2.3.dmg	sha1:32796110d2f8f4445dad1d354edd24a995c406f9
-	Gutenprint Printer Drivers for Mac OS X v10.6	http://support.apple.com/downloads/DL911/en_US/GutenprintPrinterDrivers2.0.dmg	sha1:c5241581045b7dbc51e13374ad0e35c7e4d2dacb
-	HP Printer Drivers v.2.14 for OS X	http://support.apple.com/downloads/DL907/en_US/HPPrinterDrivers2.14.dmg	sha1:87b3e32f295d8c1e11a22df715855c19b571b226
-	InfoPrint Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL1496/en_US/InfoPrintPrinterDrivers2.3.dmg	sha1:c55cb4c0485e259655918265aebad2d5cf8ee592
-	Infotec Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL903/en_US/InfotecPrinterDrivers2.3.dmg	sha1:ba88a7a8bc83cd3f37ffa1d384a6f675ef1268bc
-	Lanier Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL910/en_US/LanierPrinterDrivers2.3.dmg	sha1:9a1333636bcc728aa2f8ab0fc92b5ba139063e0d
-	Lexmark Printer Driver v3.0 for OS X	http://support.apple.com/downloads/DL1397/en_US/LexmarkPrintDrivers3.0.dmg	sha1:6b11290eef4de4cb91b0692b297d941e15d7a5c4
-	NRG Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL1495/en_US/NRGPrinterDrivers2.3.dmg	sha1:9e7cb07e82c440f11d10be97ae4bdff2c657f2a6
-	Ricoh Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL902/en_US/RicohPrinterDrivers2.3.dmg	sha1:ef3dd41103740b3202b0642ef85cdd61007d5934
-	Samsung Printer Drivers v2.5 for OS X	http://support.apple.com/downloads/DL905/en_US/SamsungPrinterDrivers.dmg	sha1:5ab9d3a59a656ba1161ed2cffa149cc43bc92477
-	Savin Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL906/en_US/SavinPrinterDrivers2.3.dmg	sha1:ddebc0768d73ab4ddb8f99f25c713770c0e11d21
-	Xerox Printer Drivers v2.1.1 for OS X	http://support.apple.com/downloads/DL912/en_US/XeroxPrintDrivers2.1.1.dmg	sha1:27b703bf051c4c44d8403e0cabf3dea0d084190f
+	Brother Printer Drivers 2.10 for OS X	http://support.apple.com/downloads/DL894/en_US/BrotherPrinterDriver2.10.dmg	md5:28723aa3840f0b77e0af2ca8e824c253
+	Canon Inkjet Printer Drivers v2.11 for OS X	http://support.apple.com/downloads/DL899/en_US/CanonPrinterDrivers.dmg	md5:8f8d41269c83553d1edd193b0664b34c
+	Canon Laser Printer Drivers v2.0 for OS X	http://support.apple.com/downloads/DL1648/en_US/CanonLaserPrintDrivers2.0.dmg	md5:72dba0621f89d30a5e30cde68581931d
+	Epson Printer Drivers v2.14 for OS X	http://support.apple.com/downloads/DL1398/en_US/EPSONPrinterDrivers2.14.dmg	md5:65a5c85b30fad408fcffa51fcbf8e695
+	FujiXerox Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL904/en_US/FujiXeroxPrinterDrivers.dmg	md5:fdb518d4510a7d4a23a3cae7c4cfdccd
+	Gestetner Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL909/en_US/GestetnerPrinterDrivers2.3.dmg	md5:7f37d6ee37f3e58bdf2a55a61cba71df
+	Gutenprint Printer Drivers for Mac OS X v10.6	http://support.apple.com/downloads/DL911/en_US/GutenprintPrinterDrivers2.0.dmg	md5:931f241001cbdad85cf468f76283349e
+	HP Printer Drivers v.2.14 for OS X	http://support.apple.com/downloads/DL907/en_US/HPPrinterDrivers2.14.dmg	md5:7475d3591d620c9b9124d4ee09f9346e
+	InfoPrint Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL1496/en_US/InfoPrintPrinterDrivers2.3.dmg	md5:369acd536ffb7d31244b02fbc5a767b9
+	Infotec Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL903/en_US/InfotecPrinterDrivers2.3.dmg	md5:92eefd9a2a84173d020a8defde5115ab
+	Lanier Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL910/en_US/LanierPrinterDrivers2.3.dmg	md5:6e9614fcb10b54995123399b61f4ed97
+	Lexmark Printer Driver v3.0 for OS X	http://support.apple.com/downloads/DL1397/en_US/LexmarkPrintDrivers3.0.dmg	md5:d0de55a435bb3182657841b2c5e736e0
+	NRG Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL1495/en_US/NRGPrinterDrivers2.3.dmg	md5:4a77c32bf189bafdf7143b9ea5960a18
+	Ricoh Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL902/en_US/RicohPrinterDrivers2.3.dmg	md5:a8c71c161d86125174a3813dddc0676e
+	Samsung Printer Drivers v2.5 for OS X	http://support.apple.com/downloads/DL905/en_US/SamsungPrinterDrivers.dmg	md5:e1474cc45b4220de69079e96a403dcfd
+	Savin Printer Drivers v2.3 for OS X	http://support.apple.com/downloads/DL906/en_US/SavinPrinterDrivers2.3.dmg	md5:ec72baa578e3edd1cded742cc8e7963d
+	Xerox Printer Drivers v2.1.1 for OS X	http://support.apple.com/downloads/DL912/en_US/XeroxPrintDrivers2.1.1.dmg	md5:e02be34c8bb3dfe84a81421c808ac5b9
