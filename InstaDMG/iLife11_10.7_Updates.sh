@@ -27,7 +27,7 @@ exec > >(tee "${OUTPUT}" ) 2>&1
 echo "#Generated: $DATE"
 echo "Apple Updates:"
 
-for i in DL1413 DL1414 DL1322 DL1650 DL1574 DL1507 DL1629
+for i in DL1413 DL1414 DL1322 DL1650 DL1574 DL1507 DL1656
 do
 	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p')
 	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)
