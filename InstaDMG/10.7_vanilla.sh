@@ -38,11 +38,11 @@ OS Updates:
 EOF
 
 cat <<'EOF'
-	iTunes 11.0.2	http://appldnld.apple.com/iTunes11/041-9794.20130220.DdPy6/iTunes11.0.2.dmg	sha1:e8eba6c2b83b9e24116a9944c808525bed260aa0
+	iTunes 11.0.4	http://appldnld.apple.com/iTunes11/091-6058.20130605.Cw321/iTunes11.0.4.dmg	sha1:cd9f00b54f2c7b2b46083f8c3d2813e0b3bc3b30
 	Safari 6.0.4	http://swscan.apple.com/content/downloads/42/19/041-9948/ukb1udm7ie7zsfjc8o1lkzs8dcpax9d8gt/Safari6.0.4Mountain.pkg	sha1:ebcb909c0c9cc6a85a188cea2c2890724c1cbfe6
 EOF
 
-for i in DL1572 DL1643 DL1628 DL1594 DL1534 DL1599
+for i in DL1572 DL1661 DL1664 DL1594 DL1534 DL1599
 do
 	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p' | tr / -)
 	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)
