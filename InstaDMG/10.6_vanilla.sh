@@ -24,7 +24,7 @@ OUTPUT="$(PWD)/CatalogFiles/10.6_vanilla.catalog"
 
 exec > >(tee "${OUTPUT}" ) 2>&1
 
-echo "#Generated: $DATE"
+echo "# Generated: $DATE"
 
 cat <<'EOF'
 # $Rev$ from $Date$
@@ -41,7 +41,7 @@ cat <<'EOF'
 	iTunes 11.0.4	http://appldnld.apple.com/iTunes11/091-6058.20130605.Cw321/iTunes11.0.4.dmg	sha1:cd9f00b54f2c7b2b46083f8c3d2813e0b3bc3b30
 EOF
 
-for i in DL1569 DL1573 DL1399 DL1532 DL1512 DL1660 DL1536
+for i in DL1569 DL1573 DL1399 DL1532 DL1512 DL1670 DL1536
 do
 	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p' | tr / -)
 	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)

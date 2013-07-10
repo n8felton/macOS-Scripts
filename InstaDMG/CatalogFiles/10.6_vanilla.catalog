@@ -1,4 +1,4 @@
-#Generated: 2013-06-26
+# Generated: 2013-07-10
 # $Rev$ from $Date$
 
 Installer Disc Builds:	10A432, 10B504, 10C540, 10D573, 10D575, 10F569
@@ -13,5 +13,5 @@ OS Updates:
 	Mac OS X 10.6.8 Update Combo v1.1	http://support.apple.com/downloads/DL1399/en_US/MacOSXUpdCombo10.6.8.dmg	sha1:e0742e7537f80c9e01376ea3b3c09df993900643
 	Apple Remote Desktop 3.5.3 Client	http://support.apple.com/downloads/DL1532/en_US/RemoteDesktopClient.dmg	sha1:3ece5926985cbc336aca10eba995cc1353724f6a
 	Apple Software Installer Update 1.0	http://support.apple.com/downloads/DL1512/en_US/AppleSoftwareInstallerUpdate.dmg	sha1:f03170aedca0fbb7e58026de0436bc614a4dab8f
-	Security Update 2013-002 (Snow Leopard)	http://support.apple.com/downloads/DL1660/en_US/SecUpd2013-002.dmg	sha1:5da54b38ffb8c147925c3018a8f5bf30ad4ac5b1
+	Security Update 2013-003 (Snow Leopard)	http://support.apple.com/downloads/DL1670/en_US/SecUpd2013-003.dmg	sha1:59f7be08ba2f3e343539c011793f7e31773f9caa
 	AirPort Utility 5.6.1 for Leopard-Snow Leopard	http://support.apple.com/downloads/DL1536/en_US/AirPortUtility5.6.1.dmg	sha1:66943c0eb6de4567954c730f59a40bd5537055b3
