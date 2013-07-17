@@ -44,7 +44,7 @@ EOF
 
 for i in DL1572 DL1668 DL1664 DL1594 DL1534 DL1599
 do
-	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1>(.*)</h1>$:\1:p' | tr / -)
+	TITLE=$(curl --silent ${BASE_URL}/kb/${i} | sed -En 's:^.*<h1 id="main-title">(.*)</h1>$:\1:p' | tr / -)
 	FILE=$(basename $(curl --head --location --silent ${BASE_URL}/downloads/${i}/${LOCALE}/ | sed -En 's/^.*Location: (.*)$/\1/p' | tail -1 | tr -d '\r') .dmg)
 	${CHECKSUM} "${BASE_URL}/downloads/${i}/${LOCALE}/${FILE}.dmg" | sed -E s:"$FILE":"$TITLE":
 done
