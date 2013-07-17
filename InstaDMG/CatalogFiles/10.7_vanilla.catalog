@@ -1,4 +1,4 @@
-# Generated: 2013-07-10
+# Generated: 2013-07-17
 # $Rev$ from $Date$
 
 Installer Disc Builds:	11A511, 11B26, 11C74, 11D50, 11E53, 11G63
@@ -11,7 +11,7 @@ OS Updates:
 	Safari 6.0.4	http://swscan.apple.com/content/downloads/42/19/041-9948/ukb1udm7ie7zsfjc8o1lkzs8dcpax9d8gt/Safari6.0.4Mountain.pkg	sha1:ebcb909c0c9cc6a85a188cea2c2890724c1cbfe6
 	Java for OS X 2013-004	http://support.apple.com/downloads/DL1572/en_US/JavaForOSX2013-004.dmg	sha1:e9a1954c8d77666380526e5107825c2ffeaf314a
 	Security Update 2013-003 (Lion)	http://support.apple.com/downloads/DL1668/en_US/SecUpd2013-003.dmg	sha1:c94eeaee2e329f75830140598c8973b6a8e1b22d
-	AirPort Utility 6.3 for Mac	http://support.apple.com/downloads/DL1664/en_US/AirPortUtility6.3.dmg	sha1:a3877a8d61b6acae4dc1e21aa3c849da80d54cdd
+	AirPort Utility 6.3.1 for Mac	http://support.apple.com/downloads/DL1664/en_US/AirPortUtility6.3.1.dmg	sha1:7cb449454ef5c2cf478a2a5394f652a9705c9481
 	Apple Remote Desktop 3.6.2 Client	http://support.apple.com/downloads/DL1594/en_US/RemoteDesktopClient.dmg	sha1:609965234e30f1a48ce7cd20d98cd3bc5b79712d
 	Flashback Removal Security Update	http://support.apple.com/downloads/DL1534/en_US/FlashbackRemovalUpdate.dmg	sha1:64231192a3b6d0ac8b0fe61c6ea7be5c829cc9f9
 	OS X Lion 10.7.5 Supplemental Update	http://support.apple.com/downloads/DL1599/en_US/MacOSXUpd10.7.5Supp.dmg	sha1:644284dd913a207214c02a9e84945195d7b20c9a

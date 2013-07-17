@@ -1,4 +1,4 @@
-# Generated: 2013-07-10
+# Generated: 2013-07-17
 # $Rev$ from $Date$
 
 Installer Disc Builds:	12A269, 12B19, 12C60, 12D78, 12E55
@@ -10,4 +10,4 @@ OS Updates:
 	iTunes 11.0.4	http://appldnld.apple.com/iTunes11/091-6058.20130605.Cw321/iTunes11.0.4.dmg	sha1:cd9f00b54f2c7b2b46083f8c3d2813e0b3bc3b30
 	Java for OS X 2013-004	http://support.apple.com/downloads/DL1572/en_US/JavaForOSX2013-004.dmg	sha1:e9a1954c8d77666380526e5107825c2ffeaf314a
 	Security Update 2013-003 (Mountain Lion)	http://support.apple.com/downloads/DL1667/en_US/SecUpd2013-003.dmg	sha1:5452c463819106ec30e9f365031f65f1b6c538c0
-	AirPort Utility 6.3 for Mac	http://support.apple.com/downloads/DL1664/en_US/AirPortUtility6.3.dmg	sha1:a3877a8d61b6acae4dc1e21aa3c849da80d54cdd
+	AirPort Utility 6.3.1 for Mac	http://support.apple.com/downloads/DL1664/en_US/AirPortUtility6.3.1.dmg	sha1:7cb449454ef5c2cf478a2a5394f652a9705c9481
