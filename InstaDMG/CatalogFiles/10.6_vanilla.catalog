@@ -1,4 +1,4 @@
-# Generated: 2013-07-10
+# Generated: 2013-09-22
 # $Rev$ from $Date$
 
 Installer Disc Builds:	10A432, 10B504, 10C540, 10D573, 10D575, 10F569
@@ -7,11 +7,11 @@ Output Volume Name:	Macintosh HD
 Output File Name:	10.6_vanilla
 
 OS Updates:
-	iTunes 11.0.4	http://appldnld.apple.com/iTunes11/091-6058.20130605.Cw321/iTunes11.0.4.dmg	sha1:cd9f00b54f2c7b2b46083f8c3d2813e0b3bc3b30
-	Safari 5.1.9 for Snow Leopard	http://support.apple.com/downloads/DL1569/en_US/Safari5.1.9SnowLeopard.dmg	sha1:d59f7180ede53eeaed71ed04835ed4c1e75a9738
+	iTunes 11.1	https://secure-appldnld.apple.com/iTunes11/041-8596.20130918.VL65G/iTunes11.1.dmg	sha1:66b75a92d234affaed19484810d8dc53ed4608dd
+	Safari 5.1.10 for Snow Leopard	http://support.apple.com/downloads/DL1569/en_US/Safari5.1.10SnowLeopardManual.dmg	sha1:16fa66d8c8336688d983e1f125f773bb45fa3897
 	Java for Mac OS X 10.6 Update 16	http://support.apple.com/downloads/DL1573/en_US/JavaForMacOSX10.6.Update16.dmg	sha1:e19782a5ffa5766a7938234defa081d666eb0ae4
 	Mac OS X 10.6.8 Update Combo v1.1	http://support.apple.com/downloads/DL1399/en_US/MacOSXUpdCombo10.6.8.dmg	sha1:e0742e7537f80c9e01376ea3b3c09df993900643
 	Apple Remote Desktop 3.5.3 Client	http://support.apple.com/downloads/DL1532/en_US/RemoteDesktopClient.dmg	sha1:3ece5926985cbc336aca10eba995cc1353724f6a
 	Apple Software Installer Update 1.0	http://support.apple.com/downloads/DL1512/en_US/AppleSoftwareInstallerUpdate.dmg	sha1:f03170aedca0fbb7e58026de0436bc614a4dab8f
-	Security Update 2013-003 (Snow Leopard)	http://support.apple.com/downloads/DL1670/en_US/SecUpd2013-003.dmg	sha1:59f7be08ba2f3e343539c011793f7e31773f9caa
+	Security Update 2013-004 (Snow Leopard)	http://support.apple.com/downloads/DL1678/en_US/SecUpd2013-004.dmg	sha1:d07d5142a2549270f0d2eaddb262b41bb5c16b61
 	AirPort Utility 5.6.1 for Leopard-Snow Leopard	http://support.apple.com/downloads/DL1536/en_US/AirPortUtility5.6.1.dmg	sha1:66943c0eb6de4567954c730f59a40bd5537055b3
