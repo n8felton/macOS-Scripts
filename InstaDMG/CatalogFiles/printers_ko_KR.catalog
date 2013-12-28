@@ -1,20 +1,20 @@
-# Generated: 2013-10-16
+# Generated: 2013-12-28
 # $Rev$ from $Date$
 Apple Updates:
 	Brother 프린터 드라이버 2.10	http://support.apple.com/downloads/DL894/ko_KR/BrotherPrinterDriver2.10.dmg	md5:28723aa3840f0b77e0af2ca8e824c253
 	Canon 프린터 드라이버 2.12 (OS X)	http://support.apple.com/downloads/DL899/ko_KR/CanonPrinterDrivers2.12.dmg	md5:53ffd96bb232e15930f887e17d2197e9
-	Canon 레이저 프린터 소프트웨어 업데이트 2.0	http://support.apple.com/downloads/DL1648/ko_KR/CanonLaserPrintDrvs2.11.dmg	md5:7d9c01b8b9360154c3df2ec3fb3ef809
+	Canon 레이저 프린터 소프트웨어 업데이트 2.11	http://support.apple.com/downloads/DL1648/ko_KR/CanonLaserPrintDrvs2.11.dmg	md5:7d9c01b8b9360154c3df2ec3fb3ef809
 	EPSON 프린터 소프트웨어 업데이트 v2.14	http://support.apple.com/downloads/DL1398/ko_KR/EPSONPrinter2.15.1.dmg	md5:eaef5ab74ad0b6e46761d42cf5cdeb74
-	Fuji Xerox 프린터 드라이브 v2.4 (OS X)	http://support.apple.com/downloads/DL904/ko_KR/FujiXeroxPrintDrivers2.4.dmg	md5:35a2a0586c2f711cb3d59ca5864368db
+	Fuji Xerox 프린터 드라이브 v2.5 (OS X)	http://support.apple.com/downloads/DL904/ko_KR/FujiXeroxPrinterDrivers2.5.dmg	md5:be8f421564465dd50bc3c93f52843e4b
 	Gestetner 프린터 소프트웨어 업데이트 2.3 (Mac OS X)	http://support.apple.com/downloads/DL909/ko_KR/GestetnerPrinterDrivers10.0.dmg	md5:ff814b3aac547a28141a69c30eac5c62
 	Gutenprint Printer Drivers for Mac OS X v10.6	http://support.apple.com/downloads/DL911/ko_KR/GutenprintPrinterDrivers2.0.dmg	md5:931f241001cbdad85cf468f76283349e
-	Hewlett-Packard 프린터 드라이버 v2.14 (OS X)	http://support.apple.com/downloads/DL907/ko_KR/HPPrinterDriver2.16.1.dmg	md5:be33a61555fe69b2ea84ef4b5aa436e0
-	InfoPrint 프린터 소프트웨어 업데이트 v2.3 (Mac OS X)	http://support.apple.com/downloads/DL1496/ko_KR/InfoPrintPrinterDrivers10.0.dmg	md5:b49a031b77ccc632fa92e3d770f5d6f0
-	Infotec 프린터 드라이버 v2.3 (Mac OS X)	http://support.apple.com/downloads/DL903/ko_KR/InfotecPrinterDrivers10.0.dmg	md5:9bbdd02cc4d2c82301f8b24e5d9cc56e
-	Lanier 프린터 소프트웨어 업데이트 v2.3 (Mac OS X)	http://support.apple.com/downloads/DL910/ko_KR/LanierPrinterDrivers10.1.dmg	md5:a7ddc7ca2fa40ff364ce49dc0f2dd08f
-	Lexmark 프린터 소프트웨어 업데이트 v3.0	http://support.apple.com/downloads/DL1397/ko_KR/LexmarkPrintDrivers3.0.dmg	md5:d0de55a435bb3182657841b2c5e736e0
-	NRG 프린터 소프트웨어 업데이트 v2.3 (Mac OS X)	http://support.apple.com/downloads/DL1495/ko_KR/NRGPrinterDrivers10.0.dmg	md5:650792103e519d0b0a0157bf66008068
-	Ricoh 프린터 드라이버 v2.3 (Mac OS X)	http://support.apple.com/downloads/DL902/ko_KR/RicohPrinterDrivers10.0.dmg	md5:cc7c59a8a637f50dd3c4366fc169bce1
-	Samsung 프린터 드라이버 v2.5 (Mac OS X)	http://support.apple.com/downloads/DL905/ko_KR/SamsungPrinterDrivers.dmg	md5:e1474cc45b4220de69079e96a403dcfd
-	Savin 프린터 드라이버 2.3 (Mac OS X v10.6)	http://support.apple.com/downloads/DL906/ko_KR/SavinPrinterDrivers10.0.dmg	md5:586b64c0acc8ea1f2e03a9f5ac53a269
+	Hewlett-Packard 프린터 드라이버 v2.16.1 (OS X)	http://support.apple.com/downloads/DL907/ko_KR/HPPrinterDriver2.16.1.dmg	md5:be33a61555fe69b2ea84ef4b5aa436e0
+	InfoPrint 프린터 소프트웨어 업데이트 v10.0 (Mac OS X)	http://support.apple.com/downloads/DL1496/ko_KR/InfoPrintPrinterDrivers10.0.dmg	md5:b49a031b77ccc632fa92e3d770f5d6f0
+	Infotec 프린터 드라이버 v10.0 (Mac OS X)	http://support.apple.com/downloads/DL903/ko_KR/InfotecPrinterDrivers10.0.dmg	md5:9bbdd02cc4d2c82301f8b24e5d9cc56e
+	Lanier 프린터 소프트웨어 업데이트 v10.1 (Mac OS X)	http://support.apple.com/downloads/DL910/ko_KR/LanierPrinterDrivers10.1.dmg	md5:a7ddc7ca2fa40ff364ce49dc0f2dd08f
+	Lexmark 프린터 소프트웨어 업데이트 v2.12	http://support.apple.com/downloads/DL1397/ko_KR/LexmarkPrinterDrivers2.12.dmg	md5:a565cdad64ade2c5cda3c186bb5a6c38
+	NRG 프린터 소프트웨어 업데이트 v10.0 (Mac OS X)	http://support.apple.com/downloads/DL1495/ko_KR/NRGPrinterDrivers10.0.dmg	md5:650792103e519d0b0a0157bf66008068
+	Ricoh 프린터 드라이버 v10.0 (Mac OS X)	http://support.apple.com/downloads/DL902/ko_KR/RicohPrinterDrivers10.0.dmg	md5:cc7c59a8a637f50dd3c4366fc169bce1
+	Samsung 프린터 드라이버 v2.6 (Mac OS X)	http://support.apple.com/downloads/DL905/ko_KR/SamsungPrinterDrivers2.6.dmg	md5:5c6ead37c569d0350f4fa7c44470a5ce
+	Savin 프린터 드라이버 10.0 (Mac OS X v10.6)	http://support.apple.com/downloads/DL906/ko_KR/SavinPrinterDrivers10.0.dmg	md5:586b64c0acc8ea1f2e03a9f5ac53a269
 	Xerox 프린터 드라이버 v2.3 (OS X)	http://support.apple.com/downloads/DL912/ko_KR/XeroxPrinterDrivers2.3.dmg	md5:6e6050c2508771480883563474005f51
