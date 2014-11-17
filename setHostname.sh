@@ -11,7 +11,7 @@ ipAddress=$(ipconfig getifaddr en0)
 
 # Flush DNS
 case "$OSTYPE" in
-        darwin13)
+	darwin13)
                 dscacheutil -flushcache;killall -HUP mDNSResponder
                 ;;
         darwin1[1-2])
@@ -20,6 +20,9 @@ case "$OSTYPE" in
         darwin10)
                 dscacheutil -flushcache
                 ;;
+        *)
+        	discoveryutil udnsflushcaches
+        	;;
 esac
 
 # Obtain the IP address's associated DNS name, and trim it.
@@ -34,4 +37,3 @@ hostname $dnsHostname
 scutil --set LocalHostName $computerName
 scutil --set HostName $computerName
 scutil --set ComputerName $computerName
-
