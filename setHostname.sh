@@ -34,6 +34,6 @@ computerName=$(echo $dnsHostname | cut -d. -f1)
 # Rename the machine.
 echo "$(hostname) will be renamed to \"$computerName\" ($dnsHostname)"
 hostname $dnsHostname
+scutil --set HostName $dnsHostname
+scutil --set ComputerName $dnsHostname
 scutil --set LocalHostName $computerName
-scutil --set HostName $computerName
-scutil --set ComputerName $computerName
