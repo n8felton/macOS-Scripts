@@ -25,8 +25,8 @@ case "$OSTYPE" in
         	;;
 esac
 
-# Obtain the IP address's associated DNS name, and trim it.
-dnsHostname=$(dig -x $ipAddress +short)
+# Obtain the IP address's associated DNS name, and trim the trailing dot.
+dnsHostname=$(dig -x $ipAddress +short | sed 's/\.$//')
 
 # Trim the DNS hostname down to the intended computer name.
 computerName=$(echo $dnsHostname | cut -d. -f1)
