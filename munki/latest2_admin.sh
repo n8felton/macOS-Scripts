@@ -16,7 +16,7 @@ fi
 
 tmpdir=$(mktemp -d /tmp/munkibuilds-XXXX)
 pkg_download="${tmpdir}/munki2.pkg"
-choices_download="${tmpdir}/no_app.xml"
+choices_download="${tmpdir}/admin.xml"
 echo "Grabbing the latest version..."
 curl \
     -s \
@@ -28,7 +28,7 @@ curl \
     -s \
     -o "${choices_download}" \
     --connect-timeout 30 \
-    https://raw.githubusercontent.com/n8felton/Mac-OS-X-Scripts/master/munki/no_app.xml
+    https://raw.githubusercontent.com/n8felton/Mac-OS-X-Scripts/master/munki/admin.xml
 
 
 sudo /usr/sbin/installer -applyChoiceChangesXML "${choices_download}" -pkg "${pkg_download}" -target /
