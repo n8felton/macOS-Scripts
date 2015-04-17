@@ -9,7 +9,7 @@ cat <<EOF
 **************************
 
 EOF
-if [ "$(id -u)" -ne 0 ]; then
+if [[ $EUID -ne 0 ]]; then
     echo "(Please enter your sudo password when prompted)"
     echo ""
 fi
