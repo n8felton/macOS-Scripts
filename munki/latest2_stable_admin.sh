@@ -11,8 +11,8 @@ cat <<EOF
 
 EOF
 if [[ $EUID -ne 0 ]]; then
-    echo "(Please enter your sudo password when prompted)"
-    echo ""
+	echo "(Please enter your sudo password when prompted)"
+	echo ""
 fi
 
 tmpdir=$(mktemp -d /tmp/munkibuilds-XXXX)
@@ -23,15 +23,15 @@ echo "Grabbing the latest version..."
 curl \
 	-s \
 	-L \
-    -o "${pkg_download}" \
-    --connect-timeout 30 \
-    "${latest_stable_release}"
+	-o "${pkg_download}" \
+	--connect-timeout 30 \
+	"${latest_stable_release}"
 	
 curl \
-    -s \
-    -o "${choices_download}" \
-    --connect-timeout 30 \
-    https://raw.githubusercontent.com/n8felton/Mac-OS-X-Scripts/master/munki/admin.xml
+	-s \
+	-o "${choices_download}" \
+	--connect-timeout 30 \
+	https://raw.githubusercontent.com/n8felton/Mac-OS-X-Scripts/master/munki/admin.xml
 
 
 sudo /usr/sbin/installer -applyChoiceChangesXML "${choices_download}" -pkg "${pkg_download}" -target /
