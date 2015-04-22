@@ -1,6 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 #
-# Download and install the latest Munki2 tools from munkibuilds.org
+# Based on script found at https://munkibuilds.org/latest2.sh
+# Thanks to Tim Sutton
 
 cat <<EOF
 
