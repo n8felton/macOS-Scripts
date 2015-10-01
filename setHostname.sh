@@ -11,18 +11,15 @@ ipAddress=$(ipconfig getifaddr en0)
 
 # Flush DNS
 case "$OSTYPE" in
-	darwin13)
-                dscacheutil -flushcache;killall -HUP mDNSResponder
-                ;;
-        darwin1[1-2])
-                killall -HUP mDNSResponder
-                ;;
-        darwin10)
-                dscacheutil -flushcache
-                ;;
-        *)
-        	discoveryutil udnsflushcaches
-        	;;
+	darwin14)
+		which discoveryutil && discoveryutil mdnsflushcache || killall -HUP mDNSResponder
+		;;
+	darwin10)
+		dscacheutil -flushcache
+		;;
+	*)
+		killall -HUP mDNSResponder
+		;;
 esac
 
 # Obtain the IP address's associated DNS name, and trim the trailing dot.
