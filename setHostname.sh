@@ -6,8 +6,11 @@ if [ $EUID -ne 0 ]; then
 	exit 1
 fi
 
+# Find an active network interface
+interface=$(route get 0.0.0.0 2>/dev/null | awk '/interface: / {print $2}')
+
 # Obtain the computer's IP address.
-ipAddress=$(ipconfig getifaddr en0)
+ipAddress=$(ipconfig getifaddr ${interface})
 
 # Flush DNS
 case "$OSTYPE" in
