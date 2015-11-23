@@ -38,7 +38,10 @@ dns_hostname=$(dig -x ${ip_address} +short | sed 's/\.$//')
 computer_name=$(echo ${dns_hostname} | cut -d. -f1)
 
 # Rename the machine.
-echo "$(hostname) will be renamed to \"${computer_name}\" (${dns_hostname})"
+#echo "$(hostname) will be renamed to \"${computer_name}\" (${dns_hostname})"
+echo -e "Old Hostname : \033[31m$(hostname)\033[0m"
+echo -e "Computer Name: \033[32m${computer_name}\033[0m"
+echo -e "DNS Hostname : \033[32m${dns_hostname}\033[0m"
 hostname "${dns_hostname}"
 scutil --set HostName "${dns_hostname}"
 scutil --set ComputerName "${computer_name}"
