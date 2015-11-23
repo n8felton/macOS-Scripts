@@ -9,6 +9,12 @@ fi
 # Find an active network interface
 interface=$(route get 0.0.0.0 2>/dev/null | awk '/interface: / {print $2}')
 
+# If ${interface} wasn't set, we probably don't have an internet connection
+# Exit now because we're not going to talk to DNS like this.
+if [[ -z "${interface}" ]]; then
+  exit 1
+fi
+
 # Obtain the computer's IP address.
 ip_address=$(ipconfig getifaddr ${interface})
 
