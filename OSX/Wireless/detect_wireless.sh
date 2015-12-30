@@ -4,7 +4,7 @@
 airport=$(/usr/sbin/networksetup -listallnetworkservices \
   | /usr/bin/grep AirPort)
 if [[ -n "${airport}" ]]; then
-        airport_exists=1
+  airport_exists=1
 fi
 
 # Check if there is a wireless service called "Wi-Fi" available
@@ -12,5 +12,5 @@ fi
 wifi=$(/usr/sbin/networksetup -listallnetworkservices \
   | /usr/bin/grep Wi-Fi)
 if [[ -n "${wifi}" ]]; then
-        wifi_exists=1
+  wifi_exists=1
 fi
