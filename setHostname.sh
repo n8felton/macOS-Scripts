@@ -19,7 +19,7 @@ fi
 ip_address=$(ipconfig getifaddr ${interface})
 
 # Flush DNS
-case "$OSTYPE" in
+case ${OSTYPE} in
 	darwin14)
 		which discoveryutil && discoveryutil mdnsflushcache || killall -HUP mDNSResponder
 		;;
@@ -32,10 +32,16 @@ case "$OSTYPE" in
 esac
 
 # Obtain the IP address's associated DNS name, and trim the trailing dot.
-dns_hostname=$(dig -x ${ip_address} +short | sed 's/\.$//')
+dns_hostname=$(dig +short -x ${ip_address})
+dns_hostname=${dns_hostname%.}
 
-# Trim the DNS hostname down to the intended computer name.
-computer_name=$(echo ${dns_hostname} | cut -d. -f1)
+# If we were not able to find DNS record, use the current hostname.
+if [[ -z ${dns_hostname} ]]; then
+  dns_hostname=$(hostname)
+fi
+
+# Trim the DNS hostname down to the intended computer name and make ALL CAPS.
+computer_name=$(echo ${dns_hostname%%.*} |tr "[:lower:]" "[:upper:]")
 
 # Rename the machine.
 #echo "$(hostname) will be renamed to \"${computer_name}\" (${dns_hostname})"
