@@ -17,7 +17,7 @@ fi
 
 tmpdir=$(mktemp -d /tmp/munkibuilds-XXXX)
 pkg_download="${tmpdir}/munki2.pkg"
-latest_stable_release=$(curl -s https://api.github.com/repos/munki/munki/releases | python -c 'import json,sys;obj=json.load(sys.stdin);print obj[0]["assets"][0]["browser_download_url"]')
+latest_stable_release=$(curl -s https://api.github.com/repos/munki/munki/releases/latest | python -c 'import json,sys;obj=json.load(sys.stdin);print obj["assets"][0]["browser_download_url"]')
 echo "Grabbing the latest stable version from GitHub Releases..."
 curl \
 	-s \
@@ -25,5 +25,5 @@ curl \
 	-o "${pkg_download}" \
 	--connect-timeout 30 \
 	"${latest_stable_release}"
-	
+
 sudo /usr/sbin/installer -pkg "${pkg_download}" -target /
