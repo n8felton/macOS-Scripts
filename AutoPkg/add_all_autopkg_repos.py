@@ -10,5 +10,7 @@ org_repos = urllib2.urlopen(ORG_REPOS_URL)
 org_repos_data = json.load(org_repos)
 for repo in sorted(org_repos_data, key=itemgetter('stargazers_count'),
                    reverse=True):
-    print repo['clone_url']
-    subprocess.call(['autopkg', 'repo-add', repo['clone_url']])
+    if "autopkg.git" not in repo['clone_url']:
+        # Skip cloning the Autopkg source code and only get the recipes
+        print repo['clone_url']
+        subprocess.call(['autopkg', 'repo-add', repo['clone_url']])
