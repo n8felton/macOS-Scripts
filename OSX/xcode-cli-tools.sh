@@ -8,6 +8,6 @@ touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 # find the CLI Tools update
 PROD=$(softwareupdate -l | awk -F"*" '/\* Command Line Tools/ {gsub(/^[[:space:]]/,"",$2); print $2}')
 # install it
-softwareupdate -i "${PROD}" -v
+softwareupdate -i "${PROD}" --verbose
 # cleanup the placeholder
 rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
