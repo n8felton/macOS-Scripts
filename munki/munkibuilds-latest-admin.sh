@@ -1,12 +1,12 @@
 #!/bin/sh
 #
-# Download and install the latest Munki2 tools from munkibuilds.org
+# Download and install the latest version of Munki tools from munkibuilds.org
 
 cat <<EOF
 
-**************************
-** Munki auto-installer **
-**************************
+*********************************
+** Munkibuilds auto installer  **
+*********************************
 
 EOF
 if [[ $EUID -ne 0 ]]; then
@@ -15,14 +15,14 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 tmpdir=$(mktemp -d /tmp/munkibuilds-XXXX)
-pkg_download="${tmpdir}/munki2.pkg"
+pkg_download="${tmpdir}/munki3.pkg"
 choices_download="${tmpdir}/admin.xml"
 echo "Grabbing the latest version..."
 curl \
     -s \
     -o "${pkg_download}" \
     --connect-timeout 30 \
-    https://munkibuilds.org/munkitools2-latest.pkg
+    https://munkibuilds.org/munkitools3-latest.pkg
 	
 curl \
     -s \

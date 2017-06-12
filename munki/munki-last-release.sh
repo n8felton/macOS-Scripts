@@ -16,9 +16,9 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 tmpdir=$(mktemp -d /tmp/munkibuilds-XXXX)
-pkg_download="${tmpdir}/munki2.pkg"
+pkg_download="${tmpdir}/munki-last-releases.pkg"
 latest_stable_release=$(curl -s https://api.github.com/repos/munki/munki/releases | python -c 'import json,sys;obj=json.load(sys.stdin);print obj[0]["assets"][0]["browser_download_url"]')
-echo "Grabbing the latest stable version from GitHub Releases..."
+echo "Grabbing the last version posted to GitHub Releases (includes Prereleases)..."
 curl \
 	-s \
 	-L \
