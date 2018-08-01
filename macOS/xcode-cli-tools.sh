@@ -6,7 +6,7 @@
 # in Apple's SUS catalog
 touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 # find the CLI Tools update
-PROD=$(softwareupdate -l | awk -F"*" '/\* Command Line Tools/ {gsub(/^[[:space:]]/,"",$2); print $2; exit}')
+PROD=$(softwareupdate -l | awk -F"*" '/\* Command Line Tools/ {gsub(/^[[:space:]]/,"",$2); print $2;}' | tail -1)
 # install it
 softwareupdate -i "${PROD}" --verbose
 # cleanup the placeholder
