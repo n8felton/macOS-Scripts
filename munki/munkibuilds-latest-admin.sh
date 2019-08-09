@@ -23,12 +23,12 @@ curl \
     -o "${pkg_download}" \
     --connect-timeout 30 \
     https://munkibuilds.org/munkitools3-latest.pkg
-	
+
 curl \
     -s \
     -o "${choices_download}" \
     --connect-timeout 30 \
-    https://raw.githubusercontent.com/n8felton/Mac-OS-X-Scripts/master/munki/admin.xml
+    https://raw.githubusercontent.com/n8felton/macOS-Scripts/master/munki/admin.xml
 
 
 sudo /usr/sbin/installer -applyChoiceChangesXML "${choices_download}" -pkg "${pkg_download}" -target /
