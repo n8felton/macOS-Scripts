@@ -18,7 +18,7 @@ fi
 tmpdir=$(mktemp -d /tmp/munkibuilds-XXXX)
 pkg_download="${tmpdir}/munki-latest.pkg"
 choices_download="${tmpdir}/admin.xml"
-latest_stable_release=$(curl -s https://api.github.com/repos/munki/munki/releases/latest | python -c 'import json,sys;obj=json.load(sys.stdin);print obj["assets"][0]["browser_download_url"]')
+latest_stable_release=$(curl -s https://api.github.com/repos/munki/munki/releases/latest | /usr/bin/ruby -e 'require "json"; puts JSON.parse(STDIN.read)["assets"][0]["browser_download_url"];')
 echo "Grabbing the latest version..."
 curl \
 	-s \
